@@ -1,534 +1,761 @@
-<!-- Color Scheme:
-#296093, #1e6b6a, #1e466ba8, #353535, #FF8C00 (orange), #b16060 (faded red)
--->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property='og:image' content='img/J-icon.svg'/>
-	<!-- Website Title -->
-    <title>Harsh Jhunjhunwala - Data Scientist</title>
-    <!-- Bootstrap -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Font-Awesome -->
-    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Lightbox -->
-	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
-    <!-- Text Rotator-->
-	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
-	<!-- FlexSlider -->
-    <link href="assets/flexslider/flexslider.css" rel="stylesheet">
-	<!-- Theme Style -->
-    <link href="css/style.css" rel="stylesheet">
-	<!-- Animations -->
-    <link href="css/animate.css" rel="stylesheet">
-	<!-- Custom Favicon -->
-	<link href="img/J-icon.svg" rel="shortcut icon" type="image/x-icon" /> 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="assets/html5shiv/html5shiv.js"></script>
-    <script src="assets/respond/respond.min.js"></script>
-    <![endif]-->
-  </head>
-    <body id="top">
 
-      <!-- ****************************** Preloader ************************** -->
-      <div id="preloader"></div>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <title>Personal Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-	  	<!-- ==========================
-        HEADER SECTION 
-        =========================== -->
-        <header id="home">
-		    <!-- creative menu -->
-            <div class="container-fluid">
-              <div class="row">
-                <div class="menu-wrap">
-				<nav class="menu">
-				    <!-- Menu Links -->
-					<div class="icon-list" >
-						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span >Home</span></a>
-						<a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
-						<!-- <a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a> -->
-						<a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Projects</span></a>
-						<a href="index.html#blog"><i class="fa fa-fw fa-rss"></i><span>References</span></a>
-						<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a>
-					</div>
-				</nav>
-			    </div>
-			    <button class="menu-button" id="open-button"></button><!-- menu button -->
-              </div><!--/row-->
-            </div><!--/container-->
-		  <!-- Header Image -->
-          <section class="hero" id="hero">
-            <div class="container">
-              <!-- <img src="img/me.png" class="img-top"> -->
-			  <!-- Slider Button (don't edit!)-->
-              <div class="row">
-                <div class="col-md-12 text-right navicon">
-                  <a id="nav-toggle" class="nav_slide_button" href="index.html#"><span></span></a>
-                </div>
-              </div>
-			  <!-- HEADER HEADLINE -->
-              <div class="row">
-                <div class="col-md-8 col-md-offset-1 inner" >
-                  <h1 class="animated fadeInDown" id="my-name">
-                    H<span style="color:inherit;">a</span>rsh<br/>
-                    <span style="color:#1e466ba8;">Jhunjhunwala</span  >
-                  </h1><!-- Title -->
-                  <h3 class="animated fadeInUp delay-05s"><span class="rotate">Data Scientist, Entrepreneur, Student</span></h3><!-- Text Rotator -->
-                </div>
-              </div>
-			  <!-- Learn More Button -->
-              <div class="row">
-                <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
-			            <p>SEE MORE</p>
-			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
-			        </a>
-                </div>
-              </div>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.svg" rel="icon">
+  <link href="assets/img/apple-touch-icon.svg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Personal - v4.3.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">Harsh Jhunjhunwala</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <h2>I'm an aspiring <span>Data Scientist</span> from Toronto.</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <!-- <li><a class="nav-link" href="#services">Highlights</a></li> -->
+          <li><a class="nav-link" href="#portfolio">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-github"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-globe"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about me</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/me.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Data Enthusiast, Student &amp; Entrepreneur</h3>
+          <p class="fst-italic">
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>24 September 2000</span></li>
+                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>647-779-2407</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Toronto, Canada</span></li>
+              </ul>
             </div>
-          </section>
-		  <!-- Header Image End -->
-        </header>
-		<!-- ==========================
-        HEADER SECTION END  
-        =========================== -->
-		
-		
-		
-		
-		<!-- ==========================
-        ABOUT SECTION  
-        =========================== -->
-        <section class="intro text-center section-padding color-bg" id="about">
-          <div class="container">
-		    <!-- WELCOME TEXT -->
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
-				<!-- about / welcome text -->
-                <p> Wubbalubbadubdub!!
-                  <br />- <br />
-                  You either got that reference or you didn't. If you did, you and I are gonna hit it off really well and you need to connect with me asap!
-                  <br />
-                  If not, that's alright. You've got some homework to do - figure out what that reference means and then you could try to find the easter eggs in this website!</p>
-              </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Sc. in Statistics and Economics</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>harsh.jhunjhunwala@mail.utoronto.ca</span></li>
+                <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
+              </ul>
             </div>
           </div>
-        </section>
+          <p>
+            .
+          </p>
+        </div>
+      </div>
 
+    </div><!-- End About Me -->
 
+    <!-- ======= Counts ======= -->
+    <div class="counts container">
 
+      <div class="row">
 
-<!-- ==========================
-        SERVICE SECTION 
-        =========================== -->
-        <section class="features text-center section-padding" id="service">
-          <div class="container">
-        <!-- Headline -->
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Highlights</h1>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-          <div class="services">
-          <!-- Service Box 1 -->
-                  <div class="col-md-4 wp2 item">
-                    <div class="icon">
-                      <i class="fa fa-camera"></i><!-- Icon -->
-                    </div>
-                    <h2>Findr</h2><!-- Title -->
-                    <p>An mobile app that helps students find study partners for their courses, projects and hackathons 
-                      
-                      Being deployed to 5 universities across North America and is expected to have a user base of over 10,000 students.
-                    </p><!-- Description -->
-                  </div>
-          <!-- Service Box 2 -->
-                  <div class="col-md-4 wp2 item delay-05s">
-                    <div class="icon">
-                      <i class="fa fa-desktop"></i><!-- Icon -->
-                    </div>
-                    <h2>Fixit</h2><!-- Title -->
-                    <p>A recommendation engine that recommends personalised review questions to students based on their past answers. Endorsed and used by the Univeristy of Toronto
-                    </p><!-- Description -->
-                  </div>
-          <!-- Service Box 3 -->
-                  <div class="col-md-4 wp2 item delay-1s">
-                    <div class="icon">
-                    	<a href="http://spotty-music.herokuapp.com" >
-                      <i class="fa fa-cubes"></i><!-- Icon -->
-                  </a>
-                    </div>
-                    <h2>Spotty</h2><!-- Title -->
-                    <p>Performed Time Series Analysis using data Spotify, Reddit and Twitter API and developed two different recommendation systems to give users the best new music. Furthermore, provided users in-depth analysis of their Spotify listening history
-                      </p><!-- Description -->
-                  </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="732" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Days in Data</p>
           </div>
-                  <div class="clearfix"></div>
-              </div>
-            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1523" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Connections</p>
           </div>
-        </section>
+        </div>
 
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-headset"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Reach</p>
+          </div>
+        </div>
 
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+        </div>
 
-		
-		
-		
-		<!-- ==========================
-        PORTFOLIO SECTION
-    =========================== -->
-        <section class="swag text-center" id="portfolio">
-          <div class="container">
-		    <!-- Headline -->
-            <div class="row">
-              <h1 class="arrow">
-                Recent <span>Projects</span>
-              </h1>
+      </div>
+
+    </div><!-- End Counts -->
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Python <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-        </section>
 
-        <div class="container">
-          <div class="row row-offset-0">
-  				 
-          <!-- PORTFOLIO ITEM 1 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                <div class="project-container">
-                  <div class="img">
-                    <a href="https://findrapp.ca/">
-                      <img class="grayscale" src="img/findr2.png" >
-                      
-                    </a>
-                    <div class="centered">Findr</div>
-                    <!-- <h1 class="arrow">A little <span>about</span> me</h1> -->
-                  </div>
-                </div>
-              </div>
+          <div class="progress">
+            <span class="skill">SQL<i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
           </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  	
-  	    <!-- PORTFOLIO ITEM 2 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                <div class="project-container">
-                  <div class="img">
-                    <a href="https://cssplice.github.io/LAS20/proc/SPLICE_2020_LS_paper_2.pdf">
-                      <img class="grayscale" src="img/portfolio/portfolio-02-thumbnail.jpg" >
-                    </a>
-                    <div class="centered">Fixit</div>
-                    </div>
-                    
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 3 -->
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                <div class="project-container">
-                  <div class="img">
-                    <a href="http://spotty-music.herokuapp.com">
-                      <img class="grayscale" src="img/spotify.png" >
-                    </a>
-                    <div class="centered">Spotty</div>
-                  </div>
-              </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  					
-  		<!-- PORTFOLIO ITEM 4 -->
-          <div class="col-md-3 col-sm-6 ">
-              <div class="overlay-effect effects clearfix">
-                <div class="project-container">
-                  <div class="img">
-                    <a href="https://github.com/Harsh-2420/facial_keypoint">
-                      <img class="grayscale" src="img/portfolio/face.jpg" >
-                    </a>
-                    <div class="centered">Facial Keypoint</div>
-                  </div>
-                  </div>
-              </div>
-          </div>
-  	    <!-- PORTFOLIO ITEM END -->
-  	             
-          <!-- PORTFOLIO ITEM 5 -->
-          <!-- <div class="col-md-3 col-sm-6 ">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                    <a href="https://github.com/Harsh-2420/personal-website">
-                      <img class="grayscale" src="img/portfolio/portfolio-05-thumbnail.jpg" >
-                    </a>
-                  </div>
-              </div>
-          </div> -->
-<!--   	    
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                    <a href="https://findrapp.ca/">
-                      <img class="grayscale" src="img/portfolio/portfolio-06-thumbnail.jpg" >
-                    </a>
-                  </div>
-              </div>
-          </div>
-  	    
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                    <a href="https://findrapp.ca/">
-                      <img class="grayscale" src="img/portfolio/portfolio-07-thumbnail.jpg" >
-                    </a>
-                  </div>
-              </div>
-          </div>
-  	    
-          <div class="col-md-3 col-sm-6">
-              <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                    <a href="https://findrapp.ca/">
-                      <img class="grayscale" src="img/portfolio/portfolio-08-thumbnail.jpg" >
-                    </a>
-                  </div>
-              </div>
-          </div> -->
-  	    <!-- PORTFOLIO ITEM END -->
-        </div><!--/row-->
-      </div><!--/.container-->
-		<!-- ==========================
-        PORTFOLIO SECTION END
-        =========================== -->		
-		
 
-    <!-- ==========================
-        BLOG SECTION 
-        =========================== -->
-    <section class="text-center section-padding" id="blog">
-          <div class="container">
-        <!-- Headline -->
-        <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow"> <span>Reference</span></h1>
-              </div>
-            </div><br><br>
-      
-      <!-- Blog Slider -->
-            <!-- <div class="row">
-              <div id="blogSlider">
-                <ul class="slides"> -->
-                  <!-- <li> -->
-            <!-- Blog Entry 1 -->
-                    <div class="col-md-6 wp4">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <button type="submit" onclick='window.open("./img/Resume.pdf")'>
-                          <img src="img/resume.png"  class="grayscale" alt="Blog Item"><!-- Blog Image -->
-                        </button>
-                        </div>
-                      </div>
-            <br>
-                      <h2><!-- Headline -->
-                      Resume
-                    </h2>
-                      <p>Check out my resume for further details </p><!-- Description-->
-                    </div>
-          <!-- Blog Entry 2 -->
-                    <div class="col-md-6 wp4 delay-05s">
-                      <div class="overlay-effect effects clearfix">
-                        <div class="img">
-                          <a href="https://cssplice.github.io/LAS20/proc/SPLICE_2020_LS_paper_2.pdf">
-                          <img src="img/publication2.png" style="margin-left: 12vw;" class="grayscale" alt="Blog Item"><!-- Blog Image --></a>
-                        </div>
-                      </div>
-            <br>
-                      <h2>Publication</h2><!-- Headline -->
-                      <p>Find my publication on "Recommending Personalised Review Questions using Collaborative Filtering" here!</p><!-- Description -->
-                    </div>
-                  <!-- </li>
-                  <li> -->
-                  <!-- </li> -->
-                <!-- </ul>
+          <div class="progress">
+            <span class="skill">Tensorflow <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill"> Flask <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill"> Tableau <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill"> Javascript <i class="val">55%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
+
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-bar-chart-box-line" style="color: #ffbb2c;"></i>
+            <h3>Data Analytics</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-focus-2-fill" style="color: #5578ff;"></i>
+            <h3>Machine Learning</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+            <h3>Data Visualization</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-cloudy-fill" style="color: #e361ff;"></i>
+            <h3>Cloud Development</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-database-2-line" style="color: #47aeff;"></i>
+            <h3>Databases</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+            <h3>Marketing</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+            <h3>Entrepreneurship</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
+            <h3>Finance</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-music-fill" style="color: #b2904f;"></i>
+            <h3>Guitar</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-basketball-fill" style="color: #b20969;"></i>
+            <h3>Basketball</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-base-station-line" style="color: #ff5828;"></i>
+            <h3>Travelling</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+            <h3>Algorithms</h3>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- End Interests -->
+
+    <!-- ======= Testimonials ======= -->
+    <div class="testimonials container">
+
+      <div class="section-title">
+        <h2>Testimonials</h2>
+      </div>
+
+      <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="owl-carousel testimonials-carousel">
+
+      </div>
+
+    </div><!-- End Testimonials  -->
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check out my Experiences</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Summary</h3>
+          <div class="resume-item pb-0">
+            <h4>Harsh Jhunjhunwala</h4>
+            <p><em>Innovative and driven Data Analyst with 3+ years of experience analysing big data, building algorithms and in statistical modelling. Published a research paper on recommendation systems and built softwares being used by universities in Canada.</em></p>
+            <p>
+            <ul>
+              <li>Toronto, Ontario, Canada</li>
+              <li>(647)-779-2407</li>
+              <li>harsh.jhunjhunwala@mail.utoronto.ca</li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>B.Sc. in Statistics and Economics</h4>
+            <h5>2018 - 2022</h5>
+            <p><em>University of Toronto, CA</em></p>
+            <p>Pursued a double major with focus in Data Analytics and Statistical Modelling.
+              </br>
+              Research Assistant for several projects including recommender system, hypothesis testing
+            </p>
+          </div>
+          <h3 class="resume-title">Publication</h3>
+          <div class="resume-item">
+            <a href="https://cssplice.github.io/LAS20/proc/SPLICE_2020_LS_paper_2.pdf">
+            <h4 >Recommending Personalized Review Questions using
+              Collaborative Filtering</h4>
+            </a>
+            <h5>August 2020</h5>
+            <!-- <p><em>Splice Workshop</em></p> -->
+            <p> Check out the
+              <a href="https://cssplice.github.io/LAS20/proc/SPLICE_2020_LS_paper_2.pdf">paper</a> here.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Data Analyst</h4>
+            <h5>2020 - Present</h5>
+            <p><em>University of Toronto, CA </em></p>
+            <p>
+            <ul>
+              <li>Developed a software (endorsed by the university) that recommends personalized review questions to students based on
+              their past answers thereby enhancing performance in exams by over 60%.</li>
+              <li>Collaborated with a team of 4 developers to implement Collaborative Denoising Auto-Encoders (unsupervised learning)
+              and build the recommendation engine using Deep Learning libraries like Tensorflow, Keras with SQL.</li>
+              <li>Performed A/B Hypothesis testing with extensive data analysis to implement Fixit at the University of Toronto with a user
+              base of over 800 students and published two research papers.</li>
+            </ul>
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4>Founder and Product Manager</h4>
+            <h5>2020 - Present</h5>
+            <p><em>Findr, Toronto, CA</em></p>
+            <p>
+            <ul>
+              <li>Developed a web-app and mobile application to help students find partners for courses and competitio</li>
+              <li>Deployed using ReactJS, NodeJS, MongoDB and is expected to be used by over 10,000 students across 5 universities.</li>
+              <li>Used Scrum Ceremonies (like Sprint Planning, Story Grooming and Sprint Retrospectives)</li>
+              <li>Managed sprint backlog tasks and coordinated 5 developers across front-end and back-end in an agile environment</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Highlights</h2>
+        <p>My Highlights</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4><a href="">Lorem Ipsum</a></h4>
+            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Sed ut perspiciatis</a></h4>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4><a href="">Magni Dolores</a></h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">Nemo Enim</a></h4>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-slideshow"></i></div>
+            <h4><a href="">Dele cardo</a></h4>
+            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-arch"></i></div>
+            <h4><a href="">Divera don</a></h4>
+            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p>My Works</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Data Analysis</li>
+            <li data-filter=".filter-card">Private</li>
+            <li data-filter=".filter-web">Social</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="">
+            <a href="http://spotty-music.herokuapp.com/">
+            <div class="portfolio-info">
+              <h4>Spotty</h4>
+              <p>Data Analysis and Visualization Project</p>
+              <!-- <div class="portfolio-links"> -->
+                <!-- <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Spotty"><i class="bx bx-plus"></i></a> -->
+                <!-- <i class="bx bx-link"></i> -->
+              <!-- </div> -->
+            </div>
+          </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Dathena</h4>
+              <p>AML Prediction Algorithms - Scotiabank (Private)</p>
+              <!-- <div class="portfolio-links"> -->
+                <!-- <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a> -->
+                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-3.jpeg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Codify</h4>
+              <p>Image Recognition of Handwritten Code with subsequent grading 
+              </br>-
+            </br> Amazon and University of Toronto (Private) </p>
+              <!-- <div class="portfolio-links"> -->
+                <!-- <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a> -->
+                <!-- <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a> -->
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          
+            <div class="portfolio-wrap">
+
+              <a href='https://github.com/Harsh-2420/facial_keypoint'>
+                <img src="assets/img/portfolio/portfolio-4.jpeg" class="img-fluid" alt="">
+            
+            <div class="portfolio-info">
+              <h4>Facial Keypoints</h4>
+              <p>Image Recognition for Facial Expression Detection</p>
+            
+              <!-- <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div> -->
+            </div>
+          </a>
+        </div>
+          
+
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/portfolio-5.jpeg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Voices of the Red Light Area</h4>
+              <p>Publishing a book featuring vicimts of sex trafficking and talking about their stories showcasing the gruesome realities. </p>
+              <!-- <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div> -->
             </div>
           </div>
-        </section>
-    <!-- ==========================
-        BLOG SECTION END
-        =========================== -->
+        </div>
 
-		
-		
-		<!-- ==========================
-        CONTACT SECTION
-        =========================== -->
-        <section class="text-center section-padding contact-wrap" id="contact">
-		  <!-- To Top Button -->
-          <!-- <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a> -->
-          <div class="container">
-		    <!-- Headline -->
-            <div class="row">
-              <div class="col-md-12">
-                <h1 class="arrow">Connect with<span> me</span></h1>
-              </div>
-            </div>
-            <div class="row contact-details">
-			  <!-- Adress Box -->
-              <div class="col-md-4">
-                <!-- <div class="dark-box box-hover"> -->
-                  <h2><a href="https://www.linkedin.com/in/harsh-jhunjhunwala/">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    <!-- <img src="img/linkedin.png" style="width: 10%;"> -->
-                    <span>LinkedIn</span></h2>
-                  
-                </a>
-                </div>
-              <!-- </div> -->
-			  <!-- Phone Number Box -->
-              <div class="col-md-4">
-                <!-- <div class="dark-box box-hover"> -->
-                  <h2> <a href="https://github.com/Harsh-2420">
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                    <!-- /*<img src="img/github.png" style="width: 10%;">*/ -->
-                    <span>GitHub</span></h2>
-                  
-                  </a>
-                <!-- </div> -->
-              </div>
-			  <!-- E-Mail Box -->
-              <div class="col-md-4">
-                <!-- <div class="dark-box box-hover"> -->
-                  <h2><a href='mailto:harsh.jhunjhunwala@mail.utoronto.ca'><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  </a>
-                <!-- </div> -->
-              </div>
-            <!-- </div>
-            <div class="col-md-3">
-              
-                <h2><a href='https://www.instagram.com/harsh_j07/'><img src="./img/insta.png"></i><span>Instagram</span></h2>
-                </a>
-
-            </div>
-          </div> -->
-			<div class="row">
-			  <!-- Google Maps (Change your Settings below) -->
-<!-- 			  
-        <div class="col-md-2">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           
-        </div>
-        <div class="col-md-8">
-			    <div id="googlemaps"></div>
-			  </div>
-        <div class="col-md-2"> -->
+          <a href="https://enactusutsg.com/projects">
+          <div class="portfolio-wrap">
+            
+            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Ready Youth</h4>
+              <p>An Enactus project hosting 20+ workshops to educate teenagers around Canada on important topics. </p>
 
-        </div>
-			  <!-- Contact Form -->
-			  </div>
-			</div>
-			<br>
-			<!-- Social Buttons - use font-awesome, past in what you want -->
-           
-          </div>
-        </section>
-		<!-- ==========================
-        CONTACT SECTION END
-        =========================== -->
-		
-		
-		
-		<!-- ==========================
-        FOOTER SECTION
-        =========================== -->
-        <footer>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <p>All Rights Reserved. &copy; 2021 Harsh Jhunjhunwala
-              </div>
+              <!-- <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+              </div> -->
             </div>
           </div>
-        </footer>
-		<!-- ==========================
-        FOOTER SECTION END
-        =========================== -->		
-		
-		
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- SmoothScroll -->           
-    <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/waypoints.min.js"></script>
-    <!-- classie.js -->
-	<script src="js/classie.js"></script>
-    <!-- FlexSlider -->
-    <script src="assets/flexslider/jquery.flexslider.js"></script>
-	<!-- Modernizr -->
-    <script src="js/modernizr.js"></script>
-	<!-- Text Rotator -->
-	<script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-	<!-- Lightbox.js -->
-    <script src="assets/lightbox/js/lightbox.min.js"></script>
-    <!-- Google Maps --> 
-    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"></script> -->
-	<!-- Theme JavaScript Core -->
-	<script src="js/main.js"></script>
-	<script src="js/script.js"></script>
+        </a>
+        </div>
 
-	<!-- GOOGLE MAPS DATA -->
-    <!-- <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
+      </div>
 
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(43.552643516434124, -79.64849457098924), // New York 
+    </div>
+  </section><!-- End Portfolio Section -->
 
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
 
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
 
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-	
-    </script> -->
-	
-	<!-- TEXT ROTATOR SETTINGS -->
-    <script type="text/javascript">
-    $(".rotate").textrotator({
-      animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-      separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-      speed: 1200 // How many milliseconds until the next word show.
-    });
-    </script>
-	
-    </body>
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>A3025 Credit Woodlands, Mississauga, ON L5C 2V3</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-github"></i></a>
+              <a href="#" class="twitter"><i class="bi bi-globe"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>harsh.jhunjhunwala@mail.utoronto.ca</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <p>(647)-779-2407</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Send Message</button></div>
+      </form>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
